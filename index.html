@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recherche dynamique en JS</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="main__content">
+      <div class="input__control">
+        <label for="search"><i class="fa-solid fa-magnifying-glass"></i></label>
+        <input
+          type="search"
+          id="search"
+          name="search"
+          placeholder="Trouver un utilisateur"
+        />
+      </div>
+      <h2 class="main__title">Résultats de la base de données</h2>
+      <div class="table">
+        <h3 class="table__title">Nom</h3>
+        <h3 class="table__title">Email</h3>
+        <h3 class="table__title">Téléphone</h3>
+        <h3 class="table__title">Ville</h3>
+      </div>
+      <div class="table__result"></div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

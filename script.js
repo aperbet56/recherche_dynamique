@@ -41,7 +41,6 @@ const createUserList = (usersList) => {
     <p class="name">${user.name.last} ${user.name.first}</p>
     </div>
     <p class="email">${user.email}</p>
-    <p class="phone">${user.phone}</p>
     <p class="city">${user.location.city}</p>`;
     searchResult.appendChild(listItem);
   });

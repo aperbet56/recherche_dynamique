@@ -46,7 +46,7 @@ body {
 }
 
 .input__control input::placeholder {
-    color: #8a8c8d; 
+    color: #8a8c8d;
 }
 
 .main__title {
@@ -54,11 +54,11 @@ body {
     text-transform: uppercase;
     font-family: "Poppins", sans-serif;
     font-size: 28px;
-} 
+}
 
 .table {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); 
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .table__title {
@@ -73,14 +73,14 @@ body {
 
 .table__item {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); 
+    grid-template-columns: repeat(3, 1fr);
     align-items: center;
     padding: 15px 10px;
     background-color: #ffffff;
 }
 
 .table__item:nth-child(odd) {
-    background-color: #eefcf7; 
+    background-color: #eefcf7;
 }
 
 .container__img {
@@ -94,13 +94,15 @@ body {
     margin-right: 10px;
 }
 
-.table, .container__img, p {
+.table,
+.container__img,
+p {
     padding: 0 15px;
 }
 
 /**** Responsive design ****/
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 991px) {
     .table {
         display: block;
     }

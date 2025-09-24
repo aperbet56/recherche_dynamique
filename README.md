@@ -1,7 +1,27 @@
-Recherche dynamique en JavaScript
+## RECHERCHE DYNAMIQUE EN JAVASCRIPT
 
-- Pour ce projet, j'ai utilisé l'API random user
+![Design preview for the project](./img/preview.png)
 
-* Ce projet permet à un internaute de trouver rapidement une personne spécifique grace à la mise en place de filtres (methode filter de JS).
+## Le challenge
 
-- Dès l'arrivée sur la page, les résultats sont triés (via la méthode sort de JS) de manière alphabètique (en sachant que le nom de famille est en première place).
+Pour ce projet, j'ai utilisé l'API random user.
+
+Ce projet permet à un internaute de trouver rapidement une personne spécifique grace à la mise en place de filtres (methode filter de JS).
+
+Dès l'arrivée sur la page, les résultats sont triés (via la méthode sort de JS) de manière alphabètique (en sachant que le nom de famille est en première place).
+
+## Démonstration
+
+Lien vers le projet : https://aperbet56.github.io/recherche_dynamique/
+
+## Projet développé avecs
+
+- Utilisation des balises sémantiques HTML5
+- CSS3
+- Grid
+- Importation des polices "Poppins" et "Roboto"
+- Utilisation d'un normaliseur : le fichier normalize.css
+- Page web responsive
+- Desktop first
+- JavaScript
+- Code JavaScript commentés

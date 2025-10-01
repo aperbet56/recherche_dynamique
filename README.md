@@ -19,9 +19,13 @@ Lien vers le projet : https://aperbet56.github.io/recherche_dynamique/
 - Utilisation des balises sémantiques HTML5
 - CSS3
 - Grid
+- Flexbox
+- Animations css (transition, @keyframes)
+- Loader
 - Importation des polices "Poppins" et "Roboto"
 - Utilisation d'un normaliseur : le fichier normalize.css
 - Page web responsive
 - Desktop first
 - JavaScript
 - Code JavaScript commentés
+- API random user

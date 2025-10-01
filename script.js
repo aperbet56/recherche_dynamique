@@ -1,6 +1,8 @@
 // Recupération des différents éléments
 const searchInput = document.querySelector("#search");
 const searchResult = document.querySelector(".table__result");
+const btn = document.querySelector(".btn");
+const currentYear = document.querySelector(".footer__text__year");
 
 // Création de la variable dataArray qui va stocker les données de l'API
 let dataArray = [];
@@ -70,3 +72,28 @@ const filterData = (e) => {
 
 // Ecoute de l'événement input (c'est-à-dire dès que l'utilisateur va écrire à l'intérieur du champ) et appel de la fonction filterData
 searchInput.addEventListener("input", filterData);
+
+// Ecoute de l'événement click sur la flèche
+btn.addEventListener("click", () => {
+  window.scrollTo({
+    top: 0,
+    left: 0,
+    behavior: "smooth",
+  });
+});
+
+// Déclaration de la fonction getCurrentYear qui va permettre l'affichage dynamique de l'année
+const getCurrentYear = () => {
+  // Récupération de la date actuelle stockée dans la constante date
+  const date = new Date();
+  //console.log(date);
+
+  // Récupération de l'année stockée dans la constante year
+  const year = date.getFullYear();
+  //console.log(year);
+
+  // Affichage dynamique de l'année en cours
+  currentYear.textContent = year;
+};
+// Appel de la fonction getCurrentYear()
+getCurrentYear();

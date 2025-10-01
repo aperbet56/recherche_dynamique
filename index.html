@@ -12,6 +12,30 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <!-- loader -->
+    <div class="loader">
+      <span class="letter">C</span>
+      <span class="letter">H</span>
+      <span class="letter">A</span>
+      <span class="letter">R</span>
+      <span class="letter">G</span>
+      <span class="letter">E</span>
+      <span class="letter">M</span>
+      <span class="letter">E</span>
+      <span class="letter">N</span>
+      <span class="letter">T</span>
+    </div>
+    <!-- Fin du loader -->
+
+    <!-- Début du header -->
+    <header>
+      <h1>Rechercher un utilisateur</h1>
+    </header>
+    <!-- Fin du header -->
+
+    <div class="separator"></div>
+
+    <!-- Début du main -->
     <main class="main__content">
       <div class="input__control">
         <label for="search"><i class="fa-solid fa-magnifying-glass"></i></label>
@@ -22,15 +46,31 @@
           placeholder="Trouver un utilisateur"
         />
       </div>
-      <h2 class="main__title">Résultats de la base de données</h2>
+      <h2 class="main__title">Résultats présent dans la base de données</h2>
       <div class="table">
         <h3 class="table__title">Nom</h3>
         <h3 class="table__title">Email</h3>
         <h3 class="table__title">Ville</h3>
       </div>
       <div class="table__result"></div>
+      <div class="btn">
+        <i class="fa-solid fa-arrow-up"></i>
+      </div>
     </main>
+    <!-- Fin du main -->
 
+    <div class="separator"></div>
+
+    <!-- Début du footer -->
+    <footer>
+      <p class="footer__text">
+        &copy; <span class="footer__text__year"></span>
+        - Mentions légales.
+      </p>
+    </footer>
+    <!-- Fin du footer -->
+
+    <!-- Importation du fichier JavaScript -->
     <script src="script.js"></script>
   </body>
 </html>
